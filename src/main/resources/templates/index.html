@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="zh_cn" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h1 th:text="${params}"></h1>
+<h1 th:text="${#request.getRequestURI()}"></h1>
+<h1 th:text="${#request.getRemoteAddr()}"></h1>
+</body>
+</html>
